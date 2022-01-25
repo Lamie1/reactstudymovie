@@ -19,7 +19,7 @@ const Detail = () => {
 
     return (
         <div>
-            {loading ? (<h1></h1>) : 
+            {loading ? (<h1>Loading...</h1>) : 
                 <Movie
                     key={detail.data.movie.id}
                     id={detail.data.movie.id}
